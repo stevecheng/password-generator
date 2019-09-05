@@ -1,11 +1,11 @@
 # Password Generator
 
-The `password-generator.php` script generates a password based on given needs.
+The `password-generator` script generates a password based on given needs.
 
 ## Usage
 
 ```bash
-php password-generator.php --length=<length> --chars=<character-mapping-key>
+php password-generator --length=<length> --chars=<character-mapping-key>
 ```
 
 ### Password Length (`--length`)
@@ -29,7 +29,7 @@ If no mapping is specified, the script will generate a password using all charac
 
 ## Example
 ```bash
-php password-generator.php --length=32 --chars=uppercase
+php password-generator --length=32 --chars=uppercase
 ```
 
 Which would output something similar to:
